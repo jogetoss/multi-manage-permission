@@ -1,0 +1,38 @@
+[
+    {
+        title: '@@multiPermission.config@@',
+        properties: [
+            {
+                name: 'permissionKeys',
+                label: '@@multiPermission.permissionKeys@@',
+                description: '@@multiPermission.permissionKeys.description@@',
+                type: 'grid',
+                required: 'True',
+                columns: [
+                    {
+                        key: 'key',
+                        label: '@@multiPermission.permissionKey@@'
+                    }
+                ]
+            },
+            {
+                name: 'matchMode',
+                label: '@@multiPermission.matchMode@@',
+                description: '@@multiPermission.matchMode.description@@',
+                type: 'selectbox',
+                value: 'any',
+                required: 'True',
+                options: [
+                    {
+                        value: 'any',
+                        label: '@@multiPermission.matchAny@@'
+                    },
+                    {
+                        value: 'all',
+                        label: '@@multiPermission.matchAll@@'
+                    }
+                ]
+            }
+        ]
+    }
+]

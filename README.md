@@ -1,6 +1,7 @@
 # Description
 
-This repository is meant to serve as a general template for how to set up new repositories in the JogetOSS organization. 
+Multi Manage Permission is a Joget DX permission plugin that controls access using multiple keys configured through the Manage Permission menu.
+It supports OR (“any key”) and AND (“all keys”) matching for Userviews, forms, and datalists.
 
 # Getting Help
 
